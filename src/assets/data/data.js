@@ -6,6 +6,14 @@ import ticket from '../images/ticket.png'
 import spacet from '../images/spacetour.png'
 import audiop from '../images/audiop.png'
 import designo from '../images/designoo.png'
+import charcounter from '../images/charcounter.png'
+import coffee from '../images/coffee.png'
+import photosnap from '../images/photosnap.png'
+import homepage from '../images/roomhomepage.png'
+import agency from '../images/agency.png'
+import productlist from '../images/productlist.png'
+import todo from '../images/todo.png'
+import fylo from '../images/fylo.png'
 
 export const projects = [
     {
@@ -15,7 +23,7 @@ export const projects = [
         description : 'This is a dynamic e-commerce store with a seamless shopping experience. It includes real-time price calculation and user can review their order details before finalizing their purchase.',
         link : 'https://francoraymond.github.io/audiophile/',
         code : 'https://github.com/FrancoRaymond/audiophile',
-        tools : ['React js','Tailwind','Framer-motion,', 'React router']  
+        tools : ['React js','Tailwind','Framer-motion,', 'React router']
     },
     {
         id : 2,
@@ -24,7 +32,7 @@ export const projects = [
         description : 'This is a REST Countries API app that displays country details like population and region. It includes search and filter functionality, with detailed info on selected countries.',
         link : 'https://francoraymond.github.io/react-rest-countries-api/',
         code : 'https://github.com/FrancoRaymond/react-rest-countries-api',
-        tools : ['React JS','Tailwind','Context API', 'REST API', 'Framer-motion']    
+        tools : ['React JS','Tailwind','Context API', 'REST API', 'Framer-motion']  
     },
     {
         id : 3,
@@ -79,5 +87,78 @@ export const projects = [
         link : 'https://francoraymond.github.io/age-calculator-app/',
         code : 'https://github.com/FrancoRaymond/age-calculator-app',
         tools : ['HTML', 'CSS', 'Javascript']     
+    },
+    {
+        id : 9,
+        image : charcounter,
+        name : 'Character counter',
+        description : "this is a project that counts the number of characters entered into a text area in real time. It demonstrates fundamental React concepts like state management and event handling.",
+        link : 'https://francoraymond.github.io/char-count/',
+        code : 'https://github.com/FrancoRaymond/char-count',
+        tools : ['Vite', 'React', 'Tailwind']    
+    },
+    {
+        id : 10,
+        image : coffee,
+        name : 'Coffeeroasters subscription site',
+        description : 'A sleek and responsive subscription website for coffee roasters, built to showcase a premium coffee delivery service. Users can customize their preferences through a multistep form.',
+        link : 'https://francoraymond.github.io/coffeeroasters/',
+        code : 'https://github.com/FrancoRaymond/coffeeroasters',
+        tools : ['React JS','Tailwind','React-Router']     
+    },
+    ,
+    {
+        id : 11,
+        image : photosnap,
+        name : 'Photosnap',
+        description : "This is a multi-page marketing website for a photo-sharing application. It emphasizes responsive design and modern frontend practices.",
+        link : 'http://photosnap-omega-eight.vercel.app',
+        code : 'https://github.com/FrancoRaymond/photosnap',
+        tools : ['React JS', 'vite', 'Tailwind']     
+    },
+    {
+        id : 12,
+        image : homepage,
+        name : 'Room homepage',
+        description : "This showcases modern interior design solutions. It features an interactive image and text slider, optimized layouts for various screen sizes, and smooth navigation to enhance user engagement. ",
+        link : 'https://francoraymond.github.io/room-homepage/',
+        code : 'https://github.com/FrancoRaymond/room-homepage',
+        tools : ['Vite', 'React', 'SCSS']    
+    },
+    {
+        id : 13,
+        image : agency,
+        name : 'Agency landing page',
+        description : "This is a single-page website built with React and Vite, showcasing a clean and modern design suitable for creative agencies.",
+        link : 'https://francoraymond.github.io/agency-landing-page/',
+        code : 'https://github.com/FrancoRaymond/agency-landing-page',
+        tools : ['React', 'CSS']    
+    },
+    {
+        id : 14,
+        image : productlist,
+        name : 'Product list with cart',
+        description : "This project enables users to browse a list of products, add or remove items from a shopping cart, adjust item quantities, and confirm orders",
+        link : 'https://francoraymond.github.io/item-list-with-cart/',
+        code : 'https://github.com/FrancoRaymond/item-list-with-cart',
+        tools : ['React', 'Tailwind']    
+    },
+    {
+        id : 15,
+        image : todo,
+        name : 'Todo app',
+        description : "This to-do project allows users to add, reorder (via drag-and-drop), complete, and delete tasks, with persistent storage handled through the browser's local storage",
+        link : 'https://francoraymond.github.io/todo-app/',
+        code : 'https://github.com/FrancoRaymond/todo-app',
+        tools : ['React', 'Tailwind', 'Frame-motion']    
+    },
+    {
+        id : 16,
+        image : fylo,
+        name : 'Fylo landing page',
+        description : "This is a responsive landing page for Fylo, developed using React, Tailwind CSS, and Vite all presented within a modern dark-themed design.",
+        link : 'https://francoraymond.github.io/fylo-landing-page/',
+        code : 'https://github.com/FrancoRaymond/fylo-landing-page',
+        tools : ['React', 'Tailwind']    
     }
 ]

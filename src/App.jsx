@@ -12,7 +12,6 @@ const colors = ['bg-blue-500', 'bg-red-500', 'bg-green-500', 'bg-yellow-500']
             <article
               key={project.id} 
               className='max-w-96 mx-auto h-full flex flex-col bg-slate-800 rounded-md pb-3'
-             
             >
               <img src={project.image} alt={'screenshot of ' + project.name + ' interface'} loading="lazy"  className=' m-1 rounded-md h-52  object-cover shadow-sm shadow-gray-500'/>
               <div className='px-3 py-4 flex-grow'>
