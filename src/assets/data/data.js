@@ -14,6 +14,12 @@ import agency from '../images/agency.png'
 import productlist from '../images/productlist.png'
 import todo from '../images/todo.png'
 import fylo from '../images/fylo.png'
+import wordle from '../images/wordle.png'
+import extensions from '../images/extensions.png'
+import countdown from '../images/countdown.png'
+import rps from '../images/rps.png'
+import dashboard from '../images/dashboard.png'
+import easybank from '../images/easybank.png'
 
 export const projects = [
     {
@@ -106,7 +112,6 @@ export const projects = [
         code : 'https://github.com/FrancoRaymond/coffeeroasters',
         tools : ['React JS','Tailwind','React-Router']     
     },
-    ,
     {
         id : 11,
         image : photosnap,
@@ -160,5 +165,59 @@ export const projects = [
         link : 'https://francoraymond.github.io/fylo-landing-page/',
         code : 'https://github.com/FrancoRaymond/fylo-landing-page',
         tools : ['React', 'Tailwind']    
+    },
+    {
+        id : 17,
+        image : wordle,
+        name : 'Wordle',
+        description : "This is a web-based clone of the popular word-guessing game, allowing players to guess a hidden five-letter word within six attempts.",
+        link : 'https://francoraymond.github.io/wordle/',
+        code : 'https://github.com/FrancoRaymond/wordle',
+        tools : ['React', 'Tailwind']    
+    },
+    {
+        id : 18,
+        image : extensions,
+        name : 'Browser extensions manager',
+        description : "This project serves as a foundational template, allowing developers to focus on implementing extension-specific functionality without the overhead of configuring build tools and development environments.",
+        link : 'https://francoraymond.github.io/browser-extensions-manage/',
+        code : 'https://github.com/FrancoRaymond/browser-extensions-manage',
+        tools : ['React', 'Tailwind']    
+    },
+    {
+        id : 19,
+        image : countdown,
+        name : 'Launch countdown timer',
+        description : "This is designed to display a dynamic countdown to a specified launch date. It features a clean, modern interface that updates in real time, showcasing days, hours, minutes, and seconds remaining.",
+        link : 'https://francoraymond.github.io/launch-countdown-timer/',
+        code : 'https://github.com/FrancoRaymond/launch-countdown-timer',
+        tools : ['React', 'Tailwind']    
+    },
+    {
+        id : 20,
+        image : rps,
+        name : 'Rock Paper Scissors',
+        description : "This project is a browser-based Rock-Paper-Scissors game built with React and Vite.",
+        link : 'https://francoraymond.github.io/rock-paper-scissors/',
+        code : 'https://github.com/FrancoRaymond/rock-paper-scissors',
+        tools : ['React', 'Tailwind']    
+    },
+    {
+        id : 21,
+        image : dashboard,
+        name : 'Time tracking dashboard',
+        description : "The Time Tracking Dashboard is a responsive web application that allows users to monitor time spent on various activities—such as work, study, and exercise—across daily, weekly, and monthly intervals.",
+        link : 'https://francoraymond.github.io/time-tracking-dashboard/',
+        code : 'https://github.com/FrancoRaymond/time-tracking-dashboard',
+        tools : ['React', 'Tailwind']    
+    },
+    {
+        id : 22,
+        image : easybank,
+        name : 'Easybank landing page',
+        description : "A modern and fully responsive landing page built with HTML, CSS, and Tailwind CSS. This project replicates the Easybank design challenge from Frontend Mentor, showcasing clean layout, interactive hover effects, and mobile-first responsiveness.",
+        link : 'https://francoraymond.github.io/easybank-landing-page-master/',
+        code : 'https://github.com/FrancoRaymond/easybank-landing-page-master',
+        tools : ['HTML', 'CSS', 'Javascript'] 
     }
 ]
