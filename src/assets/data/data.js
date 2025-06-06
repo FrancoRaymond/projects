@@ -20,6 +20,7 @@ import countdown from '../images/countdown.png'
 import rps from '../images/rps.png'
 import dashboard from '../images/dashboard.png'
 import easybank from '../images/easybank.png'
+import ppage from '../images/ppage.png'
 
 export const projects = [
     {
@@ -218,6 +219,15 @@ export const projects = [
         description : "A modern and fully responsive landing page built with HTML, CSS, and Tailwind CSS. This project replicates the Easybank design challenge from Frontend Mentor, showcasing clean layout, interactive hover effects, and mobile-first responsiveness.",
         link : 'https://francoraymond.github.io/easybank-landing-page-master/',
         code : 'https://github.com/FrancoRaymond/easybank-landing-page-master',
+        tools : ['HTML', 'CSS', 'Javascript'] 
+    },
+    {
+        id : 23,
+        image : ppage,
+        name : 'E-commerce product page',
+        description : "This product page features a lightbox-enabled image gallery with thumbnail navigation, a dynamic item counter, and a functional add‑to‑cart interface with cart review and item removal",
+        link : 'https://francoraymond.github.io/ecommerce-product-page/',
+        code : 'https://github.com/FrancoRaymond/ecommerce-product-page',
         tools : ['HTML', 'CSS', 'Javascript'] 
     }
 ]
