@@ -21,6 +21,7 @@ import rps from '../images/rps.png'
 import dashboard from '../images/dashboard.png'
 import easybank from '../images/easybank.png'
 import ppage from '../images/ppage.png'
+import news from '../images/news.png'
 
 export const projects = [
     {
@@ -228,6 +229,15 @@ export const projects = [
         description : "This product page features a lightbox-enabled image gallery with thumbnail navigation, a dynamic item counter, and a functional add‑to‑cart interface with cart review and item removal",
         link : 'https://francoraymond.github.io/ecommerce-product-page/',
         code : 'https://github.com/FrancoRaymond/ecommerce-product-page',
+        tools : ['HTML', 'CSS', 'Javascript'] 
+    },
+    {
+        id : 24,
+        image : news,
+        name : 'News homepage',
+        description : "A responsive news homepage featuring a modern grid layout and interactive elements. It includes a featured article, trending news section, and mobile-friendly navigation",
+        link : 'https://francoraymond.github.io/news-homepage-main/',
+        code : 'https://github.com/FrancoRaymond/news-homepage-main',
         tools : ['HTML', 'CSS', 'Javascript'] 
     }
 ]
