@@ -22,6 +22,7 @@ import dashboard from '../images/dashboard.png'
 import easybank from '../images/easybank.png'
 import ppage from '../images/ppage.png'
 import news from '../images/news.png'
+import calc from '../images/calc.png'
 
 export const projects = [
     {
@@ -239,5 +240,13 @@ export const projects = [
         link : 'https://francoraymond.github.io/news-homepage-main/',
         code : 'https://github.com/FrancoRaymond/news-homepage-main',
         tools : ['HTML', 'CSS', 'Javascript'] 
+    }, {
+        id : 25,
+        image : calc,
+        name : 'Calculator app',
+        description : "This is a calculator web app built with React and Tailwind CSS, offering light, dark, and color-themed modes. It supports basic arithmetic operations with a clean and modern UI.",
+        link : 'https://francoraymond.github.io/calculator-app/',
+        code : 'https://github.com/FrancoRaymond/calculator-app',
+        tools : ['React js', 'Tailwind']
     }
 ]
