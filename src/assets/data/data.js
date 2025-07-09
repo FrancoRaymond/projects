@@ -23,6 +23,7 @@ import easybank from '../images/easybank.png'
 import ppage from '../images/ppage.png'
 import news from '../images/news.png'
 import calc from '../images/calc.png'
+import chatapp from '../images/chatapp.png'
 
 export const projects = [
     {
@@ -248,5 +249,15 @@ export const projects = [
         link : 'https://francoraymond.github.io/calculator-app/',
         code : 'https://github.com/FrancoRaymond/calculator-app',
         tools : ['React js', 'Tailwind']
+    },
+    {
+        id : 26,
+        image : chatapp,
+        name : 'Chat app illustration',
+        description : "This is a responsive chat app illustration. It features a modern layout that mimics a mobile chat interface. The project showcases component-based design and utility-first styling.",
+        link : 'https://francoraymond.github.io/chat-app-illustration/',
+        code : 'https://github.com/FrancoRaymond/chat-app-illustration',
+        tools : ['React js', 'Tailwind']
     }
 ]
+
